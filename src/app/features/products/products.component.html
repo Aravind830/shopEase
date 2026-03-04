@@ -1,0 +1,22 @@
+<div class="container">
+  <h2 class="page-title">Products</h2>
+
+  <div class="product-grid">
+
+    <mat-card class="product-card" *ngFor="let product of [1,2,3,4,5,6]">
+      <img mat-card-image src="https://via.placeholder.com/250x200" alt="Product">
+
+      <mat-card-content>
+        <h3>Product Name</h3>
+        <p class="price">₹999</p>
+      </mat-card-content>
+
+      <mat-card-actions>
+        <button mat-raised-button color="primary">
+          Add to Cart
+        </button>
+      </mat-card-actions>
+    </mat-card>
+
+  </div>
+</div>
